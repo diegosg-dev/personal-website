@@ -25,7 +25,7 @@ window.SITE_CONTENT = {
   socials: [
     {
       label: "YouTube",
-      url: "https://youtube.com/@sgdev",
+      url: "https://www.youtube.com/@DiegoSGDev",
     },
     {
       label: "GitHub",
@@ -33,7 +33,7 @@ window.SITE_CONTENT = {
     },
     {
       label: "X",
-      url: "https://x.com/your-username",
+      url: "https://x.com/DiegoSGDev",
     },
     {
       label: "Email",
