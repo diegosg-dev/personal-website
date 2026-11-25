@@ -44,53 +44,7 @@ window.SITE_CONTENT = {
   // Projects, repositories, websites, and tools
   // Categories you can use: "Open-Source", "LLMs", "Tools", "Websites"
   // Tip: Leave `url` empty ("") if a project is still in progress.
-  projects: [
-    {
-      title: "LLM Benchmark Notes",
-      description:
-        "Reproducible prompts, test results, and scripts featured on the SGDev YouTube channel.",
-      category: "LLMs",
-      year: "2026",
-      url: "https://github.com/diegosg-dev/llm-benchmarks",
-      repoUrl: "",
-    },
-    {
-      title: "Macro Brief AI",
-      description:
-        "Summarizes central bank releases and economic indicators into plain-language weekly notes.",
-      category: "Open-Source",
-      year: "2026",
-      url: "https://sgdev.es",
-      repoUrl: "https://github.com/diegosg-dev/macro-brief-ai",
-    },
-    {
-      title: "sgdev.es",
-      description:
-        "This personal website and project index, hosted as a lightweight static app on my own VPS.",
-      category: "Websites",
-      year: "2026",
-      url: "https://sgdev.es",
-      repoUrl: "https://github.com/diegosg-dev/personal-website",
-    },
-    {
-      title: "Quick Finance Calculators",
-      description:
-        "A small set of clean browser calculators for compounding, inflation adjustment, and discounting.",
-      category: "Tools",
-      year: "2026",
-      url: "",
-      repoUrl: "",
-    },
-    {
-      title: "Econ & AI Starter Notebooks",
-      description:
-        "Reusable Python notebooks and scripts for econometrics coursework and small AI experiments.",
-      category: "Open-Source",
-      year: "2026",
-      url: "https://github.com/diegosg-dev/econ-notebooks",
-      repoUrl: "",
-    },
-  ],
+  projects: [],
 
   // Footer note
   footer: {
