@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SGDev | Open-Source Projects, LLMs &amp; Web Tools</title>
+    <meta
+      name="description"
+      content="Home of the SGDev YouTube channel and project index at sgdev.es. Open-source projects, LLMs & benchmarks, and small web tools by an economics student."
+    />
+    <meta property="og:title" content="SGDev | sgdev.es" />
+    <meta
+      property="og:description"
+      content="Open-source projects, LLMs & benchmarks, and small web tools. Companion site to the SGDev YouTube channel."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://sgdev.es" />
+    <meta property="og:image" content="https://sgdev.es/assets/sgdev-banner.png" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="apple-touch-icon" href="./assets/sgdev-avatar.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="site-header" id="site-header">
+        <div class="container header-inner">
+          <a href="./" class="brand" aria-label="SGDev home">
+            <span class="brand-prompt" aria-hidden="true">&gt;_</span>
+            <span class="brand-sg">SG</span><span class="brand-dev">Dev</span>
+          </a>
+          <nav class="social-nav" id="social-nav" aria-label="Social links"></nav>
+        </div>
+      </header>
+
+      <main class="container main-content">
+        <section class="intro" aria-labelledby="intro-headline">
+          <div class="intro-grid">
+            <div class="intro-copy">
+              <h1 class="intro-headline" id="intro-headline">
+                Open-source projects, LLM benchmarks, and web tools.
+              </h1>
+              <p class="intro-summary" id="intro-summary">
+                Home of the SGDev YouTube channel, built by an economics student exploring AI, open-source software, and small tools for the web.
+              </p>
+            </div>
+            <ul class="intro-topics" id="intro-topics" aria-label="Channel focus"></ul>
+          </div>
+        </section>
+
+        <section class="projects-section" aria-labelledby="projects-heading">
+          <div class="projects-header">
+            <h2 class="section-heading" id="projects-heading">Projects &amp; links</h2>
+            <span class="project-count" id="project-count" aria-live="polite"></span>
+          </div>
+
+          <div class="controls-bar">
+            <div
+              class="segmented-filter"
+              id="category-filter"
+              role="tablist"
+              aria-label="Filter projects by category"
+            ></div>
+
+            <label class="search-field" for="project-search">
+              <span class="sr-only">Search projects</span>
+              <svg
+                class="search-icon"
+                width="15"
+                height="15"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+              <input
+                type="search"
+                id="project-search"
+                class="search-input"
+                placeholder="Search projects..."
+                autocomplete="off"
+              />
+            </label>
+          </div>
+
+          <ul class="project-list" id="project-list"></ul>
+          <p class="empty-state" id="empty-state" hidden>
+            No matching projects found. Try a different keyword or switch back to All.
+          </p>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-inner">
+          <span id="footer-note">sgdev.es</span>
+          <a id="footer-contact" class="footer-link" href="mailto:hello@sgdev.es">hello@sgdev.es</a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./content.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
