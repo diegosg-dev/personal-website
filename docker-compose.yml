@@ -4,4 +4,4 @@ services:
     container_name: sgdev-website
     restart: unless-stopped
     ports:
-      - "${PORT:-8080}:80"
+      - "${PORT:-8080}:8080"
