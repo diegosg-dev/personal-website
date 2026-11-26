@@ -44,7 +44,17 @@ window.SITE_CONTENT = {
   // Projects, repositories, websites, and tools
   // Categories you can use: "Open-Source", "LLMs", "Tools", "Websites"
   // Tip: Leave `url` empty ("") if a project is still in progress.
-  projects: [],
+  projects: [
+    {
+      title: "VPSAgent",
+      description:
+        "Let your existing AI agent deploy and manage isolated Docker apps on an Ubuntu VPS with human approvals and zero root Docker socket access.",
+      category: "Open-Source",
+      year: "2026",
+      url: "https://vpsagent.sgdev.es",
+      repoUrl: "https://github.com/VPSAgent/vpsagent",
+    },
+  ],
 
   // Footer note
   footer: {
